@@ -1,10 +1,11 @@
 #include "Triangle.h" 
-#include <iostream> 
+#include <iostream>
+#include <cstdio>
 #include <cmath> 
 using namespace std;
 
 Triangle::Triangle() {
-    cout << "Enter the six coordinates: " << endl;
+    cout << "Enter the six coordinatesz: " << endl;
     cin >> x1;
     cin >> y1;
     cin >> x2;
@@ -25,13 +26,4 @@ void Triangle::Print() {
 	cout << "Coordinates A is " << x1 << " " << y1 << endl;
 	cout << "Coordinates B is " << x2 << " " << y2 << endl;
 	cout << "Coordinates C is " << x3 << " " << y3 << endl;
-}
-
-Triangle::~Triangle() {
-    x1 = 0.0;
-    y1 = 0.0;
-    x2 = 0.0;
-    y2 = 0.0;
-    x3 = 0.0;
-    y3 = 0.0;
 }
