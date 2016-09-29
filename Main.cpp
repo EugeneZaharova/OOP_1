@@ -1,6 +1,7 @@
 #include <cstdlib> 
 #include <iostream>
 #include <cmath>
+#include <cstdio>
 #include "Triangle.h"
 #include "Foursquare.h" 
 #include "Octagon.h"
