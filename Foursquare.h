@@ -12,16 +12,7 @@ public:
 	double Square(); 
 	void Print();
 	
-	~Foursquare();
-	
 private: 
-	size_t x1; 
-	size_t x2; 
-	size_t x3;
-	size_t x4;
-	size_t y1; 
-	size_t y2; 
-	size_t y3;
-	size_t y4;
+	size_t a; 
 }; 
 #endif /* FOURSQUARE_H */
