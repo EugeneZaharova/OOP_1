@@ -12,8 +12,6 @@ public:
 	double Square(); 
 	void Print();
 	
-	~Octagon();
-	
 private: 
 	size_t x1; 
 	size_t x2; 
