@@ -1,10 +1,11 @@
 #include "Octagon.h" 
-#include <iostream> 
+#include <iostream>
+#include <cstdio>
 #include <cmath> 
 using namespace std;
 
 Octagon::Octagon() {
-    cout << "Enter the sixteen coordinates: " << endl;
+    cout << "Enter the sixteen coordinates ('x' and 'y'): " << endl;
     cin >> x1;
     cin >> y1;
     cin >> x2;
@@ -43,25 +44,6 @@ void Octagon::Print() {
 	cout << "Coordinates D is " << x4 << " " << y4 << endl;
 	cout << "Coordinates E is " << x5 << " " << y5 << endl;
 	cout << "Coordinates F is " << x6 << " " << y6 << endl;
-    cout << "Coordinates G is " << x7 << " " << y7 << endl;
+   	cout << "Coordinates G is " << x7 << " " << y7 << endl;
 	cout << "Coordinates H is " << x8 << " " << y8 << endl;
-}
-
-Octagon::~Octagon() {
-    x1 = 0.0;
-    y1 = 0.0;
-    x2 = 0.0;
-    y2 = 0.0;
-    x3 = 0.0;
-    y3 = 0.0;
-    x4 = 0.0;
-    y4 = 0.0;
-    x5 = 0.0;
-    y5 = 0.0;
-    x6 = 0.0;
-    y6 = 0.0;
-    x7 = 0.0;
-    y7 = 0.0;
-    x8 = 0.0;
-    y8 = 0.0;
 }
